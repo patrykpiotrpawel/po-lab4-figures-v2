@@ -17,9 +17,6 @@ public:
     virtual void flip() = 0;
     virtual void move(double x, double y) = 0;
     virtual std::string toString() = 0;
-    virtual ~Figure() = default;
-    virtual Figure* clone() const = 0;
-
 };
 
 #endif //PO_LAB3_FIGURES_V2_FIGURE_H
